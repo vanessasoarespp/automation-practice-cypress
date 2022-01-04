@@ -23,5 +23,18 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: npm cy:run
-    - run: npm cy:run:dash
+    
+    - name: Cypress run
+      uses: cypress-io/github-action@v2
+      with:
+        record: true
+        group: 'e2e-tests'
+      env:
+        CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+        
+    - name: Upload videos
+      uses: actions/upload-artifact@v2.2.0
+      if: always()
+      with:
+        name: videos
+        path: cypress/videos
