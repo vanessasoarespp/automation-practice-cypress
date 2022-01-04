@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [14.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -29,7 +29,9 @@ jobs:
       with:
         record: true
       env:
+        CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
         CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Upload videos
       uses: actions/upload-artifact@v2.2.0
