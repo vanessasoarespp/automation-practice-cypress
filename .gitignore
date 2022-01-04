@@ -6,4 +6,3 @@ cypress/screenshots
 mochawesome-report/
 index.json
 *.txt
-package-lock.json
