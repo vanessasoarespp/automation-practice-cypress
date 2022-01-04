@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2022-01-03T18:31:29.561Z",
-    "end": "2022-01-03T18:31:45.036Z",
-    "duration": 15475,
+    "start": "2022-01-04T17:43:36.333Z",
+    "end": "2022-01-04T17:43:49.543Z",
+    "duration": 13210,
     "testsRegistered": 1,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d94bfbdb-9500-44c8-a519-1daf43909a20",
+      "uuid": "c3031335-9c1f-4e5f-a7bb-7225100ffd60",
       "title": "",
       "fullFile": "cypress/integration/compra.spec.js",
       "file": "cypress/integration/compra.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "66830e7c-2438-46c8-9dc8-b74da8dc99ad",
+          "uuid": "dcde7a04-dc13-47ec-8fe9-425bbe2bbe62",
           "title": "Compra",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Efetuar uma compra de produto",
               "fullTitle": "Compra Efetuar uma compra de produto",
               "timedOut": null,
-              "duration": 15344,
+              "duration": 13147,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "AssertionError: Timed out retrying: Expected to find element: `button[name=processAddress]`, but never found it.\n    at Context.eval (http://automationpractice.com/__cypress/tests?p=cypress/integration/compra.spec.js:122:8)",
                 "diff": null
               },
-              "uuid": "da2cdc6e-447a-493b-9b0c-2834e8ea5c85",
-              "parentUUID": "66830e7c-2438-46c8-9dc8-b74da8dc99ad",
+              "uuid": "7d641599-2cbf-4886-9789-ff3c705c00ee",
+              "parentUUID": "dcde7a04-dc13-47ec-8fe9-425bbe2bbe62",
               "isHook": false,
               "skipped": false
             }
@@ -60,11 +60,11 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "da2cdc6e-447a-493b-9b0c-2834e8ea5c85"
+            "7d641599-2cbf-4886-9789-ff3c705c00ee"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 15344,
+          "duration": 13147,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
