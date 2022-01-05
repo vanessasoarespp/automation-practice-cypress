@@ -1,1 +1,4 @@
+name: Mac Parallel Tests
 
+on: [push]
+jobs:
