@@ -1,4 +1,4 @@
-name: Windows Parallel Tests
+name: Windows Parallel E2E
 
 on: [push]
 jobs:
