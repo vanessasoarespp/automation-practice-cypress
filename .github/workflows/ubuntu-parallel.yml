@@ -1,4 +1,4 @@
-name: Cypress Ubuntu Parallel
+name: Ubuntu Parallel E2E
 
 on: [push]
 jobs:
