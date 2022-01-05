@@ -1,1 +1,4 @@
+name: Windows Parallel Tests
 
+on: [push]
+jobs:
