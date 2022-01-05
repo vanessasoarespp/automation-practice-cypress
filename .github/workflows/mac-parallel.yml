@@ -1,4 +1,4 @@
-name: Mac Parallel Tests
+name: Mac Parallel E2E
 
 on: [push]
 jobs:
